@@ -34,14 +34,14 @@ html {
     background-color: white;
     grid-auto-flow: column;
     grid-template-columns: 400px 1fr;
-    background-image: url('/images/bg-pattern-desktop.svg');
+    background-image: url('./images/bg-pattern-desktop.svg');
     background-repeat: no-repeat;
     background-position: -600px -320px;
     position: relative;
 }
 
 .image_wrapper_inner {
-    background-image: url('/images/illustration-woman-online-desktop.svg');
+    background-image: url('./images/illustration-woman-online-desktop.svg');
     height: 100%;
     background-repeat: no-repeat;
     background-position: -90px;
@@ -132,7 +132,7 @@ label[for^="faq"]:hover {
         flex-direction: column;
         justify-content: start;
         background-color: white;
-        background-image: url('/images/bg-pattern-mobile.svg');
+        background-image: url('./images/bg-pattern-mobile.svg');
         background-repeat: no-repeat;
         background-position: center top;
         border-radius: 10px;
